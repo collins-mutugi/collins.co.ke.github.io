@@ -1,0 +1,149 @@
+body {
+    background-image: url(/home/sources/image2.jpg) ;
+    background-color: lavenderblush;
+    background-size: cover;
+    overscroll-behavior-block: inherit;
+    flex-shrink: 1;
+    flex-grow: 1;
+    background-position: center;
+    overflow: scroll;
+}
+
+.middle {
+    max-height: 500px;
+    display: flex;
+}
+
+
+/*top buttons*/
+
+.tp {
+    background: rgba(22, 13, 73, 0.452);
+    height: 90px;
+    justify-content: center;
+    text-align: center;
+    color: rgb(70, 221, 103);
+    border-radius: 10px;
+    font-size: 2em;
+    display: block;
+}
+
+.btn {
+    height: 40px;
+    background: rgba(142, 100, 219, 0.096);
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    border: 2px solid rgba(0, 0, 0, 0.103);
+    border-radius: 10px;
+}
+.sub-button{
+    height: 90%;
+    width: 4%;
+}
+
+
+.home-btn {
+    height: 30px;
+    width: 60px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgba(250, 235, 215, 0.473);
+    box-shadow: rgb(38, 114, 190) 0 0 0 0;
+}
+
+.about-btn {
+    height: 30px;
+    width: 60px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgba(250, 235, 215, 0.473);
+    box-shadow: rgb(38, 114, 190) 0 0 0 0;
+}
+
+.contact-btn {
+    color: rgb(255, 0, 0);
+    height: 30px;
+    width: 100px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgba(250, 235, 215, 0.76);
+    box-shadow: rgb(38, 114, 190) 0 0 0 0;
+}
+
+
+/*begining the main block*/
+
+
+/*image collins */
+
+.collins {
+    justify-content: left;
+    border: 3px solid black;
+    border-radius: 60px;
+    height: 20%;
+    width: 40%;
+    margin: 20px;
+}
+
+
+/*main block*/
+
+.middle {
+    display: flex;
+    margin: 20px;
+}
+
+.main {
+    background-color: rgba(125, 179, 129, 0.336);
+    width: 400px;
+    height: 500px;
+    font-size: 1.25em;
+    border-radius: 10px;
+    display: flexbox;
+    padding-right: 100px;
+}
+
+.containe-1 {
+    background-color: aqua;
+    padding: px;
+    margin: 30px;
+    height: 100px;
+    width: 100px;
+}
+
+.container2 {}
+
+.info {
+    color: rgb(0, 1, 2);
+    display: flexbox;
+    text-align: start;
+    left: 100px;
+}
+
+.pictures {
+    max-width: 500px;
+    align-content: center;
+}
+
+.container-item {
+    background: rgba(73, 73, 192, 0.671);
+    font-family: Arial, Helvetica, sans-serif;
+    min-width: 500px;
+    display: flexbox;
+    border-radius: 10px;
+    flex-shrink: 1;
+}
+
+.pictures {
+    max-width: 800px;
+    max-height: 600px;
+    overflow: scroll;
+    padding-left: 300px;
+}
+
+.about {
+    border-radius: 10px;
+    font-weight: 300;
+    font-size: large;
+}

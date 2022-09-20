@@ -1,0 +1,24 @@
+  .home-btn:hover {
+      background-color: rgba(211, 250, 250, 0.555);
+      height: 40px;
+      width: 70px;
+  }
+  
+  .about-btn:hover {
+      background-color: rgba(167, 255, 255, 0.555);
+      height: 40px;
+      width: 70px;
+  }
+  
+  .contact-btn:hover {
+      background-color: rgba(134, 238, 238, 0.555);
+      height: 40px;
+      width: 110px;
+
+  }
+  .sub-button:hover{
+    background-color: rgb(173, 185, 196);
+    border-radius: 50px;
+    height: 95%;
+    width: 5%;
+  }
